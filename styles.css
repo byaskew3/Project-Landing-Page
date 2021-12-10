@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* header */
@@ -38,42 +39,51 @@ a {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 75px;
+    padding: 0px;
     background: #1F2937;
     color: white;
 }
 
 .left-align {
-    width: 500px;
+    width: 70vh;
     display: flex;
     flex-flow: row wrap;
-    margin-left: 50px;
+    margin-left: 200px;
+    margin-bottom: 100px;
 }
 
 .right-align {
     display: flex;
-    background: gray;
     padding: 90px 100px;
     margin-right: 100px;
 }
 
+.right-align img {
+    width: 70vh;
+    margin-left: 60px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
 h1 {
-    font-size: 48px;
+    font-size: 60px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 28px;
 }
 
 button {
     background: #3882F6;
-    padding: 10px 20px;
+    padding: 10px 40px;
     margin: 10px 0px;
     border-radius: 10px;
     border: 1px solid #3882F6;
     color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /* main-section-2 */
@@ -96,6 +106,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 200px;
 }
 
 ul div {
@@ -110,10 +121,19 @@ ul p {
 }
 
 .square {
-    width: 80px;
-    height: 80px;
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
     border:3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.square img {
+    width: 160px;
+    height: 160px;
+    border: 1px solid #3882F6;
     border-radius: 10px;
 }
 
@@ -143,4 +163,43 @@ ul p {
 .quote h3 {
     align-self: flex-end;
     font-size: 36px;
+}
+
+/* main-section-4 */
+.container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-4 {
+    background: #3882F6;
+    padding: 30px 200px;
+    margin: 96px 48px;
+    border-radius: 10px;
+    color: white;
+}
+
+.main-4 div {
+    display: flex;
+    gap: 100px;
+    font-size: 24px;
+}
+
+.main-4 div:first-child {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.main-4 button {
+    border: 1px solid white;
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* footer */
+.navigation.footer {
+    padding: 40px;
 }
