@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background: #1F2937;
+    color: white;
+}
+
+.left-items {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-items {
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* main-section-1 */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 75px;
+    background: #1F2937;
+    color: white;
+}
+
+.left-align {
+    width: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 50px;
+}
+
+.right-align {
+    display: flex;
+    background: gray;
+    padding: 90px 100px;
+    margin-right: 100px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    background: #3882F6;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 1px solid #3882F6;
+    color: white;
+}
+
+/* main-section-2 */
+
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.container-2 h1 {
+    text-align: center;
+    margin: 50px;  
+}
+
+.squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul p {
+    text-align: center;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    padding: 50px;
+    border:3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main-section-3 */
+
+.container-3 {
+    display: flex;
+    padding: 80px 160px;
+    background: #E5E7EB;
+    font-style: italic;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 36px; 
+}
+
+.quote h3 {
+    align-self: flex-end;
+    font-size: 36px;
+}
